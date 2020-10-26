@@ -58,7 +58,7 @@ metadata:
   name: hello-ingress
 spec:
   rules:
-  - host: hello-app.cluster-ingress-subdomain
+  - host: hello-app-bjn.cluster-ingress-subdomain
     http:
       paths:
       - backend:
@@ -67,5 +67,5 @@ spec:
         path: /
   tls:
   - hosts:
-    - hello-app.cluster-ingress-subdomain
+    - hello-app-bjn.cluster-ingress-subdomain
     secretName: cluster-ingress-secret
