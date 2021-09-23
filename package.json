@@ -12,11 +12,11 @@
   },
   "dependencies": {
     "express": "4.17.1",
-    "should": "*",
-    "nconf": "*",
-    "validator": "*",
     "jquery": "*",
-    "request-json": "*"
+    "nconf": "*",
+    "request-json": "*",
+    "should": "*",
+    "validator": "*"
   },
   "devDependencies": {
     "chai": "^4.3.4",
